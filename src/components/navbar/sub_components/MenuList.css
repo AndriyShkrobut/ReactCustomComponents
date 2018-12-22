@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    white-space: nowrap;
+}
+
+.menu li:not(:first-child) a{
+    margin-left: 2vw;
+}
+.menu a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
