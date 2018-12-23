@@ -1,0 +1,23 @@
+.todo_item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2% 0;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.todo_item:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+.todo_item:not(:last-child){
+    border-bottom: 0.1vh solid rgb(202, 202, 202);
+}
+
+.todo_item input{
+    margin: 0 2%;
+    background-color: #252839;
+    color: #fff;
+}

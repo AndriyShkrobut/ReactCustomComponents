@@ -1,0 +1,22 @@
+.todo_block{
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.sbm_btn{
+    padding: 1% 4.5%;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    background-color: #252839;
+    margin: 3% auto;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.sbm_btn:hover{
+    transform: scale(1.1);
+}
