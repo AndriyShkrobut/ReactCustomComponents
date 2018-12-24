@@ -14,15 +14,35 @@
     justify-content: space-between;
     padding: 0.4% 10vw;
     align-items: center;
-    background-color: #252839;
+    background-color: #000;
 }
 
 .logo{
-    width: 60px;
+    width: 355px;
     height: 60px;
-    transition: all 0.4s ease-in-out; 
 }
-.logo:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+
+rect{
+    fill: #fff;
 }
+
+.burg{
+    fill: #000;
+    /* transform-origin: calc(59.074px/2) calc(59.074px/2); */
+    transform-origin: calc(60px/2) center;
+    transition: all 0.3s ease-in-out; 
+}
+
+
+.burg:hover{
+    transform: rotate(-90deg);
+}
+
+.uni{
+    fill: #000;
+}
+
+.verse{
+    fill: #fff;
+}
+

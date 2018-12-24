@@ -4,13 +4,14 @@ import ToDoItem from './sub_components/ToDoItem'
 import todoData from './todoData'
 
 class ToDoList extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             todos: todoData
         }
         this.handleChange = this.handleChange.bind(this);
     };
+
     handleChange(id) {
         this.setState(prevState => {
             const newState = prevState.todos.map(todo => {

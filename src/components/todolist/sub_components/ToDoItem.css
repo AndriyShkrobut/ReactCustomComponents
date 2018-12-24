@@ -13,7 +13,7 @@
 }
 
 .todo_item:not(:last-child){
-    border-bottom: 0.1vh solid rgb(202, 202, 202);
+    border-bottom: 0.1vh solid #000;
 }
 
 .todo_item input{

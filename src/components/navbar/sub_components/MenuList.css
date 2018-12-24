@@ -1,11 +1,11 @@
 .menu{
-    display: flex;
+    display: none;
     align-items: center;
 }
 
 .menu a{
     color: rgb(255, 255, 255);
-    font-weight: 300;
+    font-weight: 700;
     font-size: 30px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -22,7 +22,7 @@
     content: "";
     position: absolute;
     width: 0%;
-    height: 2px;
+    height: 0.3vh;
     bottom: 0;
     left: 0;
     background-color: rgb(255, 255, 255);
