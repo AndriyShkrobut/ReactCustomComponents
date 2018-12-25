@@ -1,10 +1,11 @@
 .heading{
     max-width: 100%;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     z-index: 100;
     width: 100%;
     transition: all 0.4s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .navbar{
@@ -16,33 +17,9 @@
     align-items: center;
     background-color: #000;
 }
-
-.logo{
-    width: 355px;
-    height: 60px;
-}
-
-rect{
-    fill: #fff;
-}
-
-.burg{
-    fill: #000;
-    /* transform-origin: calc(59.074px/2) calc(59.074px/2); */
-    transform-origin: calc(60px/2) center;
-    transition: all 0.3s ease-in-out; 
-}
-
-
-.burg:hover{
-    transform: rotate(-90deg);
-}
-
-.uni{
-    fill: #000;
-}
-
-.verse{
-    fill: #fff;
+  
+.logo {
+    width: 300px;
+    height: 59px;
 }
 

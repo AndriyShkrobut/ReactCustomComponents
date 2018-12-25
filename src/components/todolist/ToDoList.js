@@ -7,7 +7,7 @@ class ToDoList extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            todos: todoData
+            todos: todoData,
         }
         this.handleChange = this.handleChange.bind(this);
     };
@@ -33,8 +33,7 @@ class ToDoList extends React.Component {
             <div className="todo_block">
                 <div className="todo_list">
                     {todoItems}
-                </div>
-                <input className="sbm_btn" type="submit" value="send" />
+                </div>                
             </div>
         )
     }
