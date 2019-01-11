@@ -3,7 +3,7 @@ import React from 'react'
 function FormRender(props) {
     return(
         <div className="form_block">
-            <form className="form" methos="POST" onSubmit={props.handleSubmit}>
+            <form className="form" onSubmit={props.handleSubmit}>
                 <input 
                     type="text"
                     name="firstName"
@@ -82,7 +82,7 @@ function FormRender(props) {
                     value="submit">{"Log "+(!props.isLoggedin ? "In" : "Out")}
                 </button>
             </form>
-            <h1>{"You're logged "+(props.isLoggedin ? "in as "+(props.firstName)+" "+(props.surName) : "out")}</h1>
+            <h1>{"You're logged " + (props.isLoggedin ? `in as ${props.firstName} ${props.surName}` : "out")}</h1>
         </div>
     )
 }

@@ -33,13 +33,13 @@ class Form extends React.Component{
     }
 
     handleSubmit(event) {
-        this.setState(prevState => {
-            return {isLoggedin: !(prevState.isLoggedin)}
-        });
+        this.setState(function(prevState){ return{isLoggedin: !prevState.isLoggedin}});
+        console.log(this.state);
         event.preventDefault();
     }
 
     componentDidMount(){
+        console.log(this.state);
         this.setState({loading: true})
         fetch("https://swapi.co/api/people/1")
             .then(response => response.json())
