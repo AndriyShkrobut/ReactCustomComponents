@@ -31,6 +31,7 @@
 
 .form textarea{
     padding-bottom: 5%;
+    padding-left: 3%;
 }
 
 .form input[type=text]:focus, .form textarea:focus, .form input[type=text]:hover, .form textarea:hover{
