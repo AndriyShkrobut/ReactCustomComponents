@@ -27,6 +27,7 @@
 
 .form input[type=text]{
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .form textarea{
